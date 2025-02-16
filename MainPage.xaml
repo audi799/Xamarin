@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:REMICON"
+             x:Class="REMICON.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Image Source="EXLogo" HeightRequest="150" Margin="0,10,0,40"/>
+            <Entry x:Name="etUser_Id" Placeholder="ID" Keyboard="Default" Margin="10,0,10,0" Completed="etUser_IdOnCompleted"/>
+            <Entry x:Name="etUser_Pass" Placeholder="Password" IsPassword="true" Keyboard="Default" Margin="10,0,10,0" Completed="etUser_PassOnCompleted"/>
+            <Button x:Name="bnLogin" 
+                    Text="- L O G I N -" 
+                    BackgroundColor="#6CC0FF" 
+                    TextColor="White" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    Margin="10,20,10,0"
+                    Clicked="BnLoginClickedAsync"/>
+
+            <StackLayout VerticalOptions="EndAndExpand"
+                         HorizontalOptions="FillAndExpand">
+                <Label Text="Copyright ⓒ GIMAEK CO.,LTD. All rights reserved." 
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       TextColor="Black" 
+                       FontSize="10"
+                       Margin="0,20,0,20"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
