@@ -9,8 +9,8 @@ namespace REMICON.Common
 {
     public class DataMod
     {
-        public String URL = "http://211.105.106.70:8080/GM/getData.jsp?APINO=100&";
-        public string eURL = "http://211.105.106.70:8080/GM/excuteData.jsp?APINO=100&";
+        public String URL = "http://211.105.106.**:8080/GM/getData.jsp?APINO=100&";
+        public string eURL = "http://211.105.106.**:8080/GM/excuteData.jsp?APINO=100&";
 
         public DataMod()
         {
