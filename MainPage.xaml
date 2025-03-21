@@ -20,7 +20,7 @@
 
             <StackLayout VerticalOptions="EndAndExpand"
                          HorizontalOptions="FillAndExpand">
-                <Label Text="Copyright ⓒ GIMAEK CO.,LTD. All rights reserved." 
+                <Label Text="Copyright ⓒ GIM*** CO.,LTD. All rights reserved." 
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center"
                        TextColor="Black" 
